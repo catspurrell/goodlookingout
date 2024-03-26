@@ -1,6 +1,8 @@
 include: "/1_ecomm_demo/1_base_dont_edit/**.view"
 include: "/1_ecomm_demo/2_refinements/**/**.view"
 
+fiscal_month_offset: -3
+
 explore: order_items {
   label: "(1) Orders, Items and Users"
   view_name: order_items
